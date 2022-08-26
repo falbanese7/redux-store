@@ -6,7 +6,7 @@
 
 ## Description
 
-Found in this repository is the codebase for a fully functioning Google Books API search engine built originally with a RESTful API, refactored to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. Users can log in or sign up and save/delete books to and from their saved books
+Found in this repository is the codebase for a fully functioning storefront application utilizing the JavaScript library Redux. The application was originally using React’s Context API but has been refactored to utlize Redux.
 
 ![Application homepage with products prepopulated](./assets/Screen%20Shot%202022-08-26%20at%206.18.58%20AM.png)
 
