@@ -4,9 +4,9 @@ import {
   UPDATE_CATEGORIES,
   UPDATE_CURRENT_CATEGORY,
 } from '../../utils/actions';
+import { useDispatch, useSelector } from 'react-redux';
 import { QUERY_CATEGORIES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
-import { useDispatch, useSelector } from 'react-redux';
 
 function CategoryMenu() {
   const state = useSelector((state) => state);
